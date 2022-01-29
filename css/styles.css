@@ -68,7 +68,7 @@ h1  {
   font-family: 'Fira', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 28px;
   line-height: 1.8em;
   color: #FFF;
 }
@@ -142,6 +142,7 @@ article {
 .article-header {
   display: flex;
   justify-content: center;
+  order: 0;
 
   width: 80%;
 }
@@ -197,25 +198,55 @@ figure {
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   body {
-    background-color: #F09A9D; /* Red */
+    background-color: rgba(80, 80, 80, 1); /* Blue */
   }
 }
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
-    background-color: #F5CF8E; /* Yellow */
+    background-color: rgba(85, 85, 85, 1); /* Blue */
   }
+
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   body {
-    background-color: #B2D6FF; /* Blue */
+    background-color: rgba(90, 90, 90, 1); /* Blue */
+  }
+
+  .fig1 {
+    order: 1
+  }
+  .fig2 {
+    order: 4
+  }
+  .fig3 {
+    order: 5
+  }
+  .fig4 {
+    order: 8
+  }
+  .t1 {
+    order: 2
+  }
+  .t2 {
+    order: 3
+  }
+  .t3 {
+    order: 6
+  }
+  .t4 {
+    order: 7
   }
 
   article {
     width: 80%;
+  }
+
+  h1 {
+    font-size: 40px;
   }
 
   figure {

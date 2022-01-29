@@ -26,6 +26,8 @@ body {
   align-items: center;
   justify-content: center;
 
+  background-color: rgba(0, 0, 0, 0.80);
+
   width: 100%;
   height: 100%;
 }
@@ -36,7 +38,7 @@ body {
   align-items: center;
   justify-content: flex-end;
 
-  height: 50%;
+  height: 40%;
 }
 
 .landing-container-bottom {
@@ -45,14 +47,14 @@ body {
   align-items: center;
   justify-content: flex-start;
 
-  height: 50%;
+  height: 60%;
 }
 
 p {
   font-family: 'Fira', sans-serif;   /* Add 'Roboto' here */
   font-style: normal;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 1.8em;
   color: #FFF;
 }
