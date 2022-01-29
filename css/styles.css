@@ -199,6 +199,13 @@ figure {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.footer p {
+  font-style: italic;
+  font-size: 20px;
+
+  padding-left: 10px;
+}
+
 .footer nav {
   min-width: 35%;
 }
@@ -209,11 +216,13 @@ figure {
   justify-content: space-between;
   align-items: flex-end;
 
+  padding-right: 20px;
+
   width: 100%;
 }
 
 .footer-nav li {
-  padding: 5px;
+  padding: 0px 5px 5px 0px;
 }
 
 /* Mobile Styles */
